@@ -1,6 +1,6 @@
 +++
-title = 'Pablo M. Tostado'
-tagline = 'Neuroengineer'
+title = 'Neuroengineer'
+tagline = 'Pablo M. Tostado'
 draft = false
 +++
 

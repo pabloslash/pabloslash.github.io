@@ -2,10 +2,9 @@
 baseURL = ""
 languageCode = "en-US"
 
-#theme = "hugo-split-theme"
 theme = ["hugo-embed-pdf-shortcode", "hugo-split-theme"]
 enableInlineShortcodes = true
-disableKinds = ["section", "taxonomy", "taxonomy", "RSS", "sitemap"]
+disableKinds = ["section", "taxonomy", "RSS", "sitemap"]
 
 # Local preview mode
 relativeURLs = true
@@ -30,11 +29,11 @@ googleAnalytics = ""
   # Section - Visual
   #[params.visual]
 
-    # Image
-    #[params.visual.image]
-      #enable = true
-      #file = "images/background.jpg"
-     # position = "center center"
+  # Image
+  [params.visual.image]
+	enable = true
+     	file = "docs/background.jpg"
+     	position = "center center"
 
     # Video
  #   [params.visual.video]

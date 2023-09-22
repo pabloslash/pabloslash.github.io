@@ -13,4 +13,4 @@ hugo.linux
 /.hugo_build.lock
 
 # sketch
-/docs/pt_resume.sketch
+/static/docs/pt_resume.sketch
