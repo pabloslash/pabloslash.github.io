@@ -8,4 +8,3 @@ Computational Modeling \
 AI/ML \
 Neural interfaces
 
-{{< embed-pdf url="cv.pdf" >}}
