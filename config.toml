@@ -1,0 +1,100 @@
+# Site settings
+baseURL = "https://example.com"
+languageCode = "en-US"
+
+#theme = "hugo-split-theme"
+theme = ["hugo-embed-pdf-shortcode", "hugo-split-theme"]
+enableInlineShortcodes = true
+disableKinds = ["section", "taxonomy", "taxonomy", "RSS", "sitemap"]
+
+# Local preview mode
+relativeURLs = true
+uglyURLs = true
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+# Copyright
+
+[params]
+
+  # Metadata for search engines and social sharing
+  author = "Pablo Tostado"
+  description = "Split is a centrally-divided layout for a professional online presence with a big image or video left with alongside content."
+  #shareImage = "images/social.jpg"
+  twitterHandle = "https://twitter.com/PabloTostadoM"
+
+  # Favicon
+  #favicon = "favicon.ico"
+
+  # Section - Visual
+  #[params.visual]
+
+    # Image
+    #[params.visual.image]
+      #enable = true
+      #file = "images/background.jpg"
+     # position = "center center"
+
+    # Video
+ #   [params.visual.video]
+  #    enable = false
+   #   mute = true
+    #  file = "videos/background.mp4"
+      # youtubeId = "dk9uNWPP7EA"
+
+  # Links
+  #
+  # Links List #1
+  [[params.links]]
+    [params.links.list1]
+      heading = "Connect"
+      
+      [[params.links.list1.link]]
+        text = "CV"
+        url = "/content/cv.md"
+        #url = "content/cv.pdf"
+        new_tab = true
+
+      [[params.links.list1.link]]
+        text = "Linkedin"
+        url = "https://www.linkedin.com/in/pablo-tostado-marcos/"
+        new_tab = true 
+
+      [[params.links.list1.link]]
+        text = "Twitter"
+        url = "https://twitter.com/PabloTostadoM"
+        new_tab = true 
+
+      [[params.links.list1.link]]
+        text = "GitHub"
+        url = "https://github.com/pabloslash"
+	new_tab = true
+	
+      [[params.links.list1.link]]
+        text = "Publications"
+        url = "https://scholar.google.com/citations?user=Us6MpYoAAAAJ&hl=en"
+        new_tab = true
+
+  # Links List #2
+  #[[params.links]]
+   # [params.links.list2]
+    #  heading = "Social"
+
+     # [[params.links.list2.link]]
+      #  tex = "Twitter"
+       # url = "#"
+
+      #[[params.links.list2.link]]
+       # text = "Instagram"
+        #url = "#"
+
+      #[[params.links.list2.link]]
+       # text = "Dribbble"
+        #url = "#"
+
+ 
+  # The original template is released under the Creative Commons Attribution 3.0 License.
+  # Please keep the original attribution link when using for your own project.
+  # If you'd like to use the template without the attribution, you can check out
+  # the license option via the template author's website: https://onepagelove.com/split
