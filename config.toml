@@ -52,7 +52,7 @@ googleAnalytics = ""
       
       [[params.links.list1.link]]
         text = "CV"
-        url = "/content/cv.md"
+        url = "https://github.com/pabloslash/pabloslash.github.io/blob/a8e6131056d5545e4e95e25c42ca78c3b424071e/content/cv.pdf"
         #url = "content/cv.pdf"
         new_tab = true
 
