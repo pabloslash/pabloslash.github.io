@@ -31,9 +31,9 @@ googleAnalytics = ""
 
   # Image
   [params.visual.image]
-	enable = true
-     	file = "docs/background.jpg"
-     	position = "center center"
+    enable = true
+    file = "docs/background.jpg"
+    position = "inherit" 
 
     # Video
  #   [params.visual.video]
