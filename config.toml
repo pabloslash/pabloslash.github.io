@@ -24,7 +24,7 @@ googleAnalytics = ""
   twitterHandle = "https://twitter.com/PabloTostadoM"
 
   # Favicon
-  #favicon = "favicon.ico"
+  favicon = "docs/logo.ico"
 
   # Section - Visual
   #[params.visual]
