@@ -1,5 +1,5 @@
 +++
-title = 'Neuroengineer'
+title = 'ML Scientist / Neuroengineer'
 tagline = 'Pablo M. Tostado'
 draft = false
 +++
