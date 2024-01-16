@@ -1,6 +1,6 @@
 +++
 title = 'ML Scientist / Neuroengineer'
-tagline = 'Pablo M. Tostado, PhD'
+tagline = 'Pablo Tostado-Marcos, PhD'
 draft = false
 +++
 
